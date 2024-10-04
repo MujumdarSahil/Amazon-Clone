@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  ul {
+    @apply list-none;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  marging: 0;
+}
+
+.gradient-1 {
+  background: linear-gradient(-180deg, rgba(234, 237, 237, 0), #e3e6e6);
+}
